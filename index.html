@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+    <title>7ifd</title>
+  </head>
+  <body>
+    <audio class="light-audio" src="audio/rooster-crow.mp3"></audio>
+    <audio class="dark-audio" src="audio/owl-hooting.mp3"></audio>
+    <header>
+      <div class="logo">
+        <h1>7ifd</h1>
+        <img src="images/quran-icon.png" alt="" />
+      </div>
+      <div class="mode">
+        <img class="light-btn" src="images/cock.png" alt="" />
+        <img class="dark-btn" src="images/owl.png" alt="" />
+      </div>
+    </header>
+    <div class="sorah">
+      <div class="ul-container">
+        <h3>Chose a Surah to memrise</h3>
+        <button class="btn-grad"></button>
+        <ul></ul>
+      </div>
+      <div class="sorah-container"></div>
+      <div class="quran-counter">
+        <h3>Your overall progress</h3>
+        <p class="quran-pages-completed">Pages completed: <span>0</span></p>
+        <p class="quran-pages-left">Pages left: <span>604</span></p>
+        <p class="quran-pages-left-percantage">
+          Completed percentage: <span>0%</span>
+        </p>
+        <p class="completed-surahs">Completed surah <span>0</span></p>
+        <p class="left-surahs">Left surah <span>114</span></p>
+        <div>
+          <button class="btn-grad clear">Clear your progress</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
