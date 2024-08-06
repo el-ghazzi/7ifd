@@ -134,7 +134,7 @@ async function fetchQuran() {
         suraLi.dataset.endpage = suwarPages[index].endPage
         document.querySelector('ul').appendChild(suraLi)
     })
-   
+    document.querySelector('ul').querySelector('.loading').style.display = 'none'
     const suwarLiList = document.querySelectorAll('li')
     let leftPagesSet = suwarLiList[suwarLiList.length - 1].dataset.endpage
     if (completedSurahsArray !== null) {
